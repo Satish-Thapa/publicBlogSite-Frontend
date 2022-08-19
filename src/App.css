@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/*Navbar Section*/
+
+
+
+.navbar-custom {
+  background-color: rgb(34, 40, 49);
+  /* height: 9vh; */
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand:hover {
+  color: rgb(0, 173, 181);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.nav-link {
+  color: rgb(0, 173, 181);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link:hover {
+  color: rgb(238, 238, 238);
 }
 
-.App-link {
-  color: #61dafb;
+.active {
+  color: rgb(238, 238, 238);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.company{
+  color: rgb(34, 40, 49);
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
+
+
+
+.footer {
+  background-color: rgb(34, 40, 49);
+  max-width: 100%;
+  color: rgb(0, 173, 181);
+  margin-top: 10rem;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Card */
+
+.card{
+  margin: 5rem auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 10px 10px rgb(34, 40, 49);
+  max-width: 100%;
+}
+
+.card-title{
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.by{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+/* Like button */
+
+
+
+
+
